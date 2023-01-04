@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/pk.png"  />
+  <link rel="shortcut icon"  type="image/png" href="./images/pk.png"  />
 
   <!-- Put your site title here -->
   <title>
@@ -26,7 +26,7 @@
       <nav class="nav" role="navigation">
       <h4>
         <ul class="nav__items">
-          <li class="nav__item"><a href="PrathamSahuResume.pdf" target="_blank" class="nav__link">Resume</a></li>
+          <!-- <li class="nav__item"><a href="PrathamSahuResume.pdf" target="_blank" class="nav__link">Resume</a></li> -->
           <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
           <li class="nav__item"><a href="#clients" class="nav__link">Skills</a></li>
           <li class="nav__item">
@@ -159,7 +159,10 @@
       <div class="row">
       
         <h2>Technical Skills</h2>
+        <!-- <marquee direction = "up" > -->
+          <marquee  direction="left" speed="fast" >
         <div class="client__logos">
+         
           <!-- Add logos of the clients or companies you'have worked with. -->
           <!-- <img src="./images/django.svg" class="client__logo" alt="django" /> -->
           <img src="./images/java.svg" class="client__logo" alt="JAVA" />
@@ -168,10 +171,25 @@
           <img src="./images/drf.png" class="client__logo" alt="DRF" />
           <img src="./images/python.svg" class="client__logo" alt="python" />
           <img src="./images/js.svg" class="client__logo" alt="js" />
-          <img src="./images/swagger.svg" class="client__logo" alt="swagger" />         
-          </div>  
+          <img src="./images/swagger.svg" class="client__logo" alt="swagger" />   
+            
+          </div> 
+          <!-- <style>
+            .client__logos{
+                animation: blinker 6.5s linear infinite;
+                /* color: red; */
+                font-family: sans-serif;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+        </style> -->
+        </marquee>  
         </div>
       </div>
+
       
     
     </section>
@@ -196,6 +214,7 @@
           </div>  
         </div>
       </div>
+    </main>
 
 
     <!-- ***** About ***** -->
@@ -203,6 +222,7 @@
     <section class="about" id="about">
       <div class="row">
         <h2>About Me</h2>
+    
         <div class="about__content">
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
@@ -221,7 +241,7 @@
         </div>
       </div>
     </section>
-  </main>
+
 
   <!-- ***** Contact ***** -->
 
@@ -263,6 +283,34 @@
             <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
           </a>
         </li>
+        <li class="footer__social-link-item">
+          <a href="https://linktr.ee/mr.pratham._.sahu">
+            <img src="./images/linktree.svg" title="Link to Linktree Profile" class="footer__social-image" alt="Linktree">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.facebook.com/profile.php?id=100012617197034">
+            <img src="./images/facebook.svg" title="Link to Facebook Profile" class="footer__social-image" alt="Facebook">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.instagram.com/mr.pratham._.sahu/">
+            <img src="./images/instagram.svg" title="Link to instagram Profile" class="footer__social-image" alt="instagram">
+          </a>
+        </li>
+
+        <li class="footer__social-link-item">
+          <a href="https://www.snapchat.com/add/mr.pratham805?share_id=fpV5jCptgCM&locale=en-IN">
+            <img src="./images/snapchat.svg" title="Link to snapchat Profile" class="footer__social-image" alt="Facebook">
+          </a>
+        </li>
+
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/mr_pratham_2003?t=fhJqj3jlgUcl-Opr9dflMA&s=09">
+            <img src="./images/twitter.svg" title="Link to twitter Profile" class="footer__social-image" alt="twitter">
+          </a>
+        </li>
+        
       </ul>
       <p>
         All copyrights reserved &copy; 2023 - Designed & developed by <a href="https://github.com/123pratham/MyPortFolioWebSite.git" class="link">123pratham</a>.
