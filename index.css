@@ -265,11 +265,12 @@ body {
     font-family: var(--font-stack);
     font-weight: 400;
     color: var(--white-1);
-    /* line-height: var(--line-height-normal); */
-    /* background: var(--); */
-    overflow-x: hidden;
-        /* height: 5000px; Used to enable scrolling */
-        background: linear-gradient(55deg, #142221 0%, #1fc8db 51%, #2d4c57 85%);
+    line-height: var(--line-height-normal); 
+        background: var(--black);
+    
+        height: 1000px;/* Used to enable scrolling */
+        /* background: linear-gradient(55deg, #142221 0%, #1fc8db 51%, #2d4c57 85%); */
+        overflow-x: hidden;
 
 }
 
