@@ -43,7 +43,7 @@ window.addEventListener("scroll", () => {
 });
 var img = document.getElementById('img');
 
-var slides=['./images/Certificate/codestdio.jpg','./images/Certificate/JavaBasichackerrank.jpg', './images/Certificate/ProblemSolving(intermediate)HackerRank.jpg','./images/Certificate/Python.jpg'];
+var slides=['./images/Certificate/codestdio.jpg','./images/Certificate/JavaBasichackerrank.jpg', './images/Certificate/ProblemSolving(intermediate)HackerRank1.jpg','./images/Certificate/Python.jpg','./images/Certificate/im1.jpg','./images/Certificate/im2.jpg','./images/Certificate/im3.jpg'];
 
 var Start=0;
 
