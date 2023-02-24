@@ -4,7 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon"  type="image/png" href="./images/pk.png"  />
+  <link rel="shortcut icon" type="image/png" href="./images/pk.png" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   <!-- Put your site title here -->
   <title>
@@ -13,81 +16,78 @@
 
   <meta name="description" content="My Portfolio site">
   <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Pratham Sahu, React, Python, Javascript, HTML, CSS, Heroku, Amazon Web Services, git, Github" />
+  <meta name="keywords"
+    content="Pratham Sahu, React, Python, Javascript, HTML, CSS, Heroku, Amazon Web Services, git, Github" />
   <link rel="stylesheet" href="index.css" />
+  
+ 
 </head>
+
+
+
+
+
+
 <!-- body -->
+
 <body>
   <div class="parallax"></div>
   <style>
-    body, html {
+    body,
+    html {
       height: 100%;
     }
-    
-    .parallax{
+
+    .parallax {
       /* The image used */
       background-image: url('./images/header2.jpg');
-    
+
       /* Full height */
-      height: 100%; 
-    
+      height: 100%;
+
       /* Create the parallax scrolling effect */
       background-attachment: fixed;
       background-position: center;
       background-repeat: repeat;
       background-size: cover;
     }
-    </style>
+  </style>
 
   <!-- ***** Header ***** -->
 
-  <header class="header" role="banner" id="top" >
+  <header class="header" role="banner" id="top">
     <div class="parallax"></div>
     <style>
-      body, html {
+      body,
+      html {
         height: 100%;
       }
-      
-      .parallax{
+
+      .parallax {
         /* The image used */
-        background-image: url('./images/header2.jpg'); 
-      
+        background-image: url('./images/header2.jpg');
+
         /* Full height */
-        height: 100%; 
-      
+        height: 100%;
+
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: center;
         background-repeat: repeat;
         background-size: cover;
       }
-      </style>
-    <div class="row">
-      <nav class="nav" role="navigation">
-      <h4>
-        <ul class="nav__items">
-          <!-- <li class="nav__item"><a href="PrathamSahuResume.pdf" target="_blank" class="nav__link">Resume</a></li> -->
-          <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Skills</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
-      </h4>
-      </nav>
-    </div>
+    </style>
+  <Responsive>
     <div class="header__text-box row">
       <div class="header__text">
         <h1 class="heading-primary">
-          
+
           <!-- Replace the following name with your name -->
           <span>Pratham Sahu</span>
         </h1>
         <h1>
-          <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Pratham.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+          <a href="" class="typewrite" data-period="2000"
+            data-type='[ "Hi, Im Pratham.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
             <span class="wrap"></span>
           </a>
         </h1>
@@ -97,7 +97,25 @@
         <a href="#work" class="btn btn--pink">My work</a>
       </div>
     </div>
-  
+
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <h4>
+          <ul class="nav__items">
+            <!-- <li class="nav__item"><a href="PrathamSahuResume.pdf" target="_blank" class="nav__link">Resume</a></li> -->
+            <li class="nav__item"><a href="#work" class="nav__link">My Projects</a></li>
+            <li class="nav__item"><a href="#clients" class="nav__link">Skills</a></li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </h4>
+      </nav>
+    </div>
+  </Responsive>
   </header>
 
   <main role="main">
@@ -107,9 +125,9 @@
     <!-- ***** Work ***** -->
 
     <section class="work" id="work">
-   
+
       <div class="row">
-     
+
         <h2>My Work</h2>
         <div class="work__boxes">
 
@@ -120,24 +138,26 @@
               <h3>Full Stack Instagram Clone with Flutter and Firebase</h3>
               <p>
                 A free Open Source project for anyone to use on github.
-              <p>This Instagram clone features basic features such as user creation, creating posts, uploading images, liking/disliking posts, following users, real-time sync, commenting, searching and more.</p>
+              <p>This Instagram clone features basic features such as user creation, creating posts, uploading images,
+                liking/disliking posts, following users, real-time sync, commenting, searching and more.</p>
               </p>
               <ul class="work__list">
-              <h4>
-                <h4>Flutter and Firebase can work well together to create a full stack app.</h4>
-                <li>Flutter (for frontend).</li>
-                <li>Firebase on the (for backend).</li>
-                <li>Responsive UI.</li>
-                <li>Firebase Authentication.</li>
-                <li>Firebase Storage</li>
-                <li>Heroku, Cloudinray (for deployment).</li>
+                <h4>
+                  <h4>Flutter and Firebase can work well together to create a full stack app.</h4>
+                  <li>Flutter (for frontend).</li>
+                  <li>Firebase on the (for backend).</li>
+                  <li>Responsive UI.</li>
+                  <li>Firebase Authentication.</li>
+                  <li>Firebase Storage</li>
+                  <li>Heroku, Cloudinray (for deployment).</li>
               </ul>
               </h4>
               <div class="work__links">
                 <a href="https://fsd-netflix-clone.netlify.app/" target="_blank" class="link__text">
                   Visit Site <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/123pratham/Full-Stack-Instagram_Clone-.git" title="View Source Code" target="_blank">
+                <a href="https://github.com/123pratham/Full-Stack-Instagram_Clone-.git" title="View Source Code"
+                  target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
@@ -155,7 +175,7 @@
               </p>
               </p>
               <ul class="work__list">
-              <h4>Here use pure HTML CSS js</h4>
+                <h4>Here use pure HTML CSS js</h4>
                 <li>HTML CSS</li>
                 <li>Javascript</li>
                 <li>netlify Cloud for (Diployment)</li>
@@ -173,8 +193,8 @@
             <div class="work__image-box">
               <img src="./images/Project1.jpg" class="work__image" alt="Project 1" />
               <!-- <video src="./images/project2.mkv" class="video"  alt="Project v"  loop  controls  preload="auto"  autoplay > -->
-               <!-- Responsive iFrame -->
-            
+              <!-- Responsive iFrame -->
+
             </div>
           </div>
 
@@ -236,41 +256,41 @@
     </section>
 
     <!-- ***** Clients ***** -->
- 
+
     <section class="client" id="clients">
       <div class="row">
-       
-      
+
+
         <h2>Technical Skills</h2>
-        
-         
+
+
         <div class="client__logos">
-          <marquee direction = "left" >
-          <!-- <marquee  direction="left" width  speed="fast"> -->
-         
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <!-- <img src="./images/django.svg" class="client__logo" alt="django" /> -->
-          <img src="./images/java.svg" class="client__logo" alt="JAVA" />
+          <marquee direction="left">
+            <!-- <marquee  direction="left" width  speed="fast"> -->
 
-          <img src="./images/c.svg" class="client__logo" alt="c" />
+            <!-- Add logos of the clients or companies you'have worked with. -->
+            <!-- <img src="./images/django.svg" class="client__logo" alt="django" /> -->
+            <img src="./images/java.svg" class="client__logo" alt="JAVA" />
 
-          <img src="./images/react.svg" class="client__logo" alt="react" />
+            <img src="./images/c.svg" class="client__logo" alt="c" />
 
-          <img src="./images/js.svg" class="client__logo" alt="js" />
+            <img src="./images/react.svg" class="client__logo" alt="react" />
 
-          <img src="./images/amazon-web.svg" class="client__logo" alt="AWS" />
-          
-          <img src="./images/docker.svg" class="client__logo" alt="docker"/>
+            <img src="./images/js.svg" class="client__logo" alt="js" />
 
-          <img src="./images/python.svg" class="client__logo" alt="python" />
-          
-          <!-- <img src="./images/drf.png" class="client__logo" alt="DRF" /> -->
-            
-          <img src="./images/swagger.svg" class="client__logo" alt="swagger" />   
-        </marquee> 
-            
-          </div> 
-          <!-- <style>
+            <img src="./images/amazon-web.svg" class="client__logo" alt="AWS" />
+
+            <img src="./images/docker.svg" class="client__logo" alt="docker" />
+
+            <img src="./images/python.svg" class="client__logo" alt="python" />
+
+            <!-- <img src="./images/drf.png" class="client__logo" alt="DRF" /> -->
+
+            <img src="./images/swagger.svg" class="client__logo" alt="swagger" />
+          </marquee>
+
+        </div>
+        <!-- <style>
             .client__logos{
                 animation: blinker 6.5s linear infinite;
                 /* color: red; */
@@ -282,21 +302,27 @@
                 }
             }
         </style> -->
-        
-        </div>
+
+      </div>
       </div>
 
-      <!-- *********************************************************** -->
-
-
-    
-       <!-- 5555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555 -->
   
-
+     
 
       <!-- ------------------------------------------------------------- -->
-    
+
     </section>
+
+
+    
+
+    <!-- <section class="client" id="clients">
+
+    </section> -->
+
+
+
+
     <!-- Certificates -->
     <section class="client" id="clients">
       <!-- <div class="row">
@@ -395,35 +421,37 @@
 
 
 <!--  -->
- 
 
-  
 
-    <!-- ***** About ***** -->
 
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-    
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              Experienced in JAVA (JSE , JEE), Full-stack development. 
-              Proficient in React, RestAPI, Heroku, Python, Javascript, HTML, CSS. Passionate about web development, Amazon Web Services, technology-related. Looking for an industry that will allow to increase my skills in full-stack development.
-            </p>
-            <!-- Provide a link to your resume -->
-            
-            <a href="PrathamSahuResume.pdf" target="_blank" class="btn">My Resume</a>
-          </div>
 
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/pic.jpg" alt="" />
-          </div>
+  <!-- ***** About ***** -->
+
+  <section class="about" id="about">
+    <div class="row">
+      <h2>About Me</h2>
+
+      <div class="about__content">
+        <div class="about__text">
+          <!-- Replace the below paragraph with info about yourself -->
+          <p>
+            Experienced in JAVA (JSE , JEE), Full-stack development.
+            Proficient in React, RestAPI, Heroku, Python, Javascript, HTML, CSS. Passionate about web development,
+            Amazon Web Services, technology-related. Looking for an industry that will allow to increase my skills in
+            full-stack development.
+          </p>
+          <!-- Provide a link to your resume -->
+
+          <a href="PrathamSahuResume.pdf" target="_blank" class="btn">My Resume</a>
+        </div>
+
+        <div class="about__photo-container">
+          <!-- Add a nice photo of yourself -->
+          <img class="about__photo" src="./images/pic.jpg" alt="" />
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
 
   <!-- ***** Contact ***** -->
@@ -435,15 +463,16 @@
         <p>
           You have came till here !!!<br>
           Here's some more info about me <br>
-          I am a Polytechnic Diploma  2023 passout from Computer Science Department <br>
+          I am a Polytechnic Diploma 2023 passout from Computer Science Department <br>
           I'm a fresher but along with 6 months of industry like experience in technologies mentioned below:- <br>
-          Java(J2SE,J2EE), React, Python, SQL, MySQL, MongoDB, C, Andriod, Amazon Web Services, HTML, CSS, Javascript(ES-6), VS-Code, git, Github.
+          Java(J2SE,J2EE), React, Python, SQL, MySQL, MongoDB, C, Andriod, Amazon Web Services, HTML, CSS,
+          Javascript(ES-6), VS-Code, git, Github.
         </p>
         <!-- Replace the email with yours -->
         <a href="mailto:sahu.pratham123@gmail.com" class="btn">sahu.pratham123@gmail.com</a>
-        
-    
-    </section>
+
+
+  </section>
 
 
   <!-- ***** Footer ***** -->
@@ -453,10 +482,11 @@
     <div class="row">
       <!-- Update the links to point to your accounts -->
       <ul class="footer__social-links">
-        
+
         <li class="footer__social-link-item">
           <a href="https://linktr.ee/mr.pratham._.sahu">
-            <img src="./images/linktree.svg" title="Link to Linktree Profile" class="footer__social-image" alt="Linktree">
+            <img src="./images/linktree.svg" title="Link to Linktree Profile" class="footer__social-image"
+              alt="Linktree">
           </a>
         </li>
         <!-- --------------------------------------------------------------------------------------------- -->
@@ -465,16 +495,17 @@
             <img src="./images/gmail.svg" class="footer__social-image" alt="Gmail">
           </a>
         </li>
-<!-- ------------------------------------------------------------------------------------------------------ -->
+        <!-- ------------------------------------------------------------------------------------------------------ -->
         <li class="footer__social-link-item">
           <a href="https://github.com/123pratham" title="Link to Github Profile">
             <img src="./images/github.svg" class="footer__social-image" alt="Github">
           </a>
         </li>
-<!-- ------------------------------------------------------------------------------------------------------- -->
+        <!-- ------------------------------------------------------------------------------------------------------- -->
         <li class="footer__social-link-item">
           <a href="https://www.linkedin.com/in/pratham-sahu-149780203/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image"
+              alt="Linkedin">
           </a>
         </li>
         <!-- ------------------------------------------------------------------------------------------------------------------- -->
@@ -483,19 +514,20 @@
             <img src="./images/yahoo.png" title="Link to Facebook Profile" class="footer__social-image" alt="Facebook">
           </a>
         </li> -->
-<!-- ------------------------------------------------------------------------------------------------------------------------- -->
+        <!-- ------------------------------------------------------------------------------------------------------------------------- -->
         <li class="footer__social-link-item">
           <a href="https://www.instagram.com/mr.pratham._.sahu/">
-            <img src="./images/instagram.svg" title="Link to instagram Profile" class="footer__social-image" alt="instagram">
+            <img src="./images/instagram.svg" title="Link to instagram Profile" class="footer__social-image"
+              alt="instagram">
           </a>
         </li>
-<!-- --------------------------------------------------snapchat----------------------------------------------------------------------- -->
+        <!-- --------------------------------------------------snapchat----------------------------------------------------------------------- -->
         <!-- <li class="footer__social-link-item">
           <a href="https://www.snapchat.com/add/mr.pratham805?share_id=fpV5jCptgCM&locale=en-IN">
             <img src="./images/snapchat.svg" title="Link to snapchat Profile" class="footer__social-image" alt="Facebook">
           </a>
         </li> -->
-<!-- --------------------------------------------------twitter------------------------------------------------------------------------ -->
+        <!-- --------------------------------------------------twitter------------------------------------------------------------------------ -->
         <!-- <li class="footer__social-link-item">
           <a href="https://twitter.com/mr_pratham_2003?t=fhJqj3jlgUcl-Opr9dflMA&s=09">
             <img src="./images/twitter.svg" title="Link to twitter Profile" class="footer__social-image" alt="twitter">
@@ -504,18 +536,19 @@
         <!-----------------------------------------------------------------------------------------------------------------------  -->
       </ul>
       <p>
-        All copyrights reserved &copy; 2023 - Designed & developed by <a href="https://github.com/123pratham/MyPortFolioWebSite.git" class="link">123pratham</a>.
+        All copyrights reserved &copy; 2023 - Designed & developed by <a
+          href="https://github.com/123pratham/MyPortFolioWebSite.git" class="link">123pratham</a>.
       </p>
     </div>
-  
+
   </footer>
 
   <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
   </a>
   <script src="./index.js"></script>
-</section>
-</section>
+  </section>
+  </section>
 </body>
 
 </html>
