@@ -1,7 +1,43 @@
 /* --------------------------------------- */
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */
-
+.work1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Ubuntu, sans-serif;
+    background-color: #fabada;
+    /* background-color: yellow; */
+  }
+  
+  h1 {
+    padding: 2rem 0 0;
+    text-align: center;
+    color: #fbfbfb;
+  }
+  
+  
+  /* Inspired from:
+  http://stackoverflow.com/questions/25573562/wrapping-a-youtube-video-in-a-static-image-frame-and-maintain-responsive-resiz */
+  div.mobile-wrapper {
+      position: relative;
+      padding-top: 25px;
+      padding-bottom: 67.5%;
+      height: 0;
+  }
+  div.mobile-wrapper iframe {
+      box-sizing: border-box;
+      background: url(https://juliamenndez.com/wp-content/uploads/mobile-frame.png) center center no-repeat;
+      background-size: contain;
+      padding: 7% 38.4% 12.8%;;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+  
 
 /* -------------------------------------------------------------- */
 * { color:#fff; text-decoration: none;}
