@@ -8,11 +8,10 @@
     justify-content: center;
     font-family: Ubuntu, sans-serif;
     background-color: #fabada;
-    /* background-color: yellow; */
   }
   
   h1 {
-    padding: 2rem 0 0;
+    padding: 4rem 0 0;
     text-align: center;
     color: #fbfbfb;
   }
