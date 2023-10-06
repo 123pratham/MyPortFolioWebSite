@@ -43,7 +43,7 @@ window.addEventListener("scroll", () => {
 });
 var img = document.getElementById('img');
 
-var slides=['./images/Certificate/codestdio.jpg','./images/Certificate/JavaBasichackerrank.jpg', './images/Certificate/ProblemSolving(intermediate)HackerRank1.jpg','./images/Certificate/Python.jpg','./images/Certificate/im1.jpg','./images/Certificate/im2.jpg','./images/Certificate/im3.jpg','./images/Certificate/JPMorganCertificate.jpg','./images/Certificate/OracleJavaExplorer.jpg'];
+var slides=['./images/Certificate/codestdio.jpg','./images/Certificate/JavaBasichackerrank.jpg', './images/Certificate/ProblemSolving(intermediate)HackerRank1.jpg','./images/Certificate/Python.jpg','./images/Certificate/im1.jpg','./images/Certificate/im2.jpg','./images/Certificate/im3.jpg','./images/Certificate/JPMorganCertificate.jpg','./images/Certificate/OracleJavaExplorer.jpg','./images/Certificate/aws.png','./images/Certificate/aws-academy-graduate-aws-academy-cloud-foundations.png'];
 
 var Start=0;
 
